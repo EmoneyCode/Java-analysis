@@ -1,0 +1,10 @@
+Total # of lines: 24
+# of single line comments: 2
+# of multiline comment blocks: 2
+class - 1
+implements - 1
+int - 4
+public - 3
+return - 2
+throws - 1
+void - 2

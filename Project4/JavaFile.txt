@@ -1,0 +1,24 @@
+public class Junker implements Serializable { // a comment, in the class Junker
+    /**
+    * [printMessage description]
+    * // this doesn't count as a single line comment
+    * @return void [return description]
+    */ 
+     public void printMessage() throws Exception {
+        String message = "Into the void!"; // ignore void
+            System.out.println(message);
+            return;
+        }
+        /**
+        * [calculateSum description]
+        *
+        * @param int a [a description]
+        * @param int b [b description]
+        *
+        * @return int [return description]
+        */
+    public void calculateSum( int a, int b) {
+        int sum = a + b;
+        return;
+    }
+}
